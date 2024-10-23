@@ -94,6 +94,9 @@ const PricingComponent: React.FC = () => {
             !isYearlyBilling ? "text-[#293356]" : "text-gray-500"
           }`}
         >
+
+
+
           Monthly Billing
         </div>
 
@@ -101,6 +104,7 @@ const PricingComponent: React.FC = () => {
           onChange={handleBillingToggle}
           defaultChecked={isYearlyBilling}
         />
+
 
         <span
           className={`text-sm ${
